@@ -1,0 +1,21 @@
+.section {
+  padding: 15% 7%;
+}
+
+#expertise {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  gap: 20px;
+}
+
+.expertise-icon{
+  width: 80px;
+  padding-right: 20px;
+}
+
+.expertise-item {
+  display: flex;
+  flex-direction: row;  
+  justify-content: center;
+  align-items: center;
+}
